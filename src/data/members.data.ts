@@ -1,4 +1,3 @@
-import React from 'react';
 /**
  * 基地成员信息列表
  * name: 昵称
@@ -68,7 +67,6 @@ const members: Member[] = [
     name: 'xinZa1',
     avatar: 'memberavatar/xinZa1.jpg',
     description: 'web',
-    blogUrl: '',
     grade: '2019级',
   },
   {
@@ -180,7 +178,6 @@ const members: Member[] = [
     name: '6个鸡蛋',
     avatar: 'memberavatar/6gjd.jpg',
     description: 'web、渗透',
-    blogUrl: 'https://guetsec.cn/',
     grade: '2022级',
   },
   {
@@ -194,7 +191,6 @@ const members: Member[] = [
     name: 'Clxhzg',
     avatar: 'memberavatar/Clxhzg.jpg',
     description: 'pwn、二进制',
-    blogUrl: 'https://guetsec.cn/',
     grade: '2023级',
   },
   {

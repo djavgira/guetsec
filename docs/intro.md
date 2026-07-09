@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-sulg: /
+slug: /
 id: intro
 ---
 # 关于我们
@@ -14,3 +14,9 @@ id: intro
 Join us. To be what you want to be.
 
 期待一个有梦想的你。
+
+## 文档导航
+
+- [CTF 相关网站](./ctf-websites) — 常用 CTF 平台与资源
+- [专业方向介绍](./major-intro) — 信息安全相关方向简介
+- [招新信息](./招新/2026) — 2026 年招新详情

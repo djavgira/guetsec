@@ -12,7 +12,11 @@ const config = {
   url: 'https://guetsec.cn/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+  markdown: {
+    hooks: {
+      onBrokenMarkdownLinks: 'warn',
+    },
+  },
   favicon: 'img/CodeSandbox.svg',
 
   // GitHub pages deployment config.
@@ -57,10 +61,14 @@ const config = {
         //   alt: 'My Site Logo',
         //   src: 'img/logo.svg',
         // },
-        // { to: '/about', label: '关于', position: 'right' },
         items: [
           {
-            to: 'docs/intro',
+            to: '/about',
+            label: '关于',
+            position: 'right',
+          },
+          {
+            to: '/docs/',
             activeBasePath: 'docs',
             position: 'left',
             label: '文档',

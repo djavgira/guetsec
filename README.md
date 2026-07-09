@@ -1,25 +1,31 @@
-# 部署
+# GUETSEC 官网
 
-使用命令加载依赖
+桂林电子科技大学信息安全协会（[guetsec.cn](https://)）官方网站，基于 [Docusaurus](https://docusaurus.io/) 构建
+
+## 使用
 
 ```shell
+# 安装依赖
 npm install
-```
 
-使用命令进行构建静态资源
-
-```shell
-npm run build
-```
-
-使用命令进行动态调试
-
-```shell
+# 本地
 npm run start
+
+# 构建
+npm run build
+
+# 预览
+npm run serve
 ```
 
-使用命令启动服务
+## 目录
 
-```shell
-nom run server
+```text
+src/
+├── pages/           # 路由页面（首页、团队成员、荣誉奖项、相册、关于）
+├── components/      # 公共组件
+├── data/            # 数据文件（成员、荣誉）
+└── css/             # 全局样式
+docs/                # 文档页面
+static/              # 静态资源（图片、头像等）
 ```
